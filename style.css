@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  border-style: groove;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  margin-top:20px;
+  padding: 15px 27px;
+  border: 2px solid #3D3B40;
+  border-radius: 5px;
+  font-size: 20px;
+  background: #D0F288;
+  border-style:groove;
+  text-align: right;
+}
+
+.container{
+  border: 6px solid #3D3B40;
+  background: #3D3B40;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  border-style:groove ;
+}
+
+.casio img{
+  width: 120px;
+  height: 30px;
+}
+
+.solar{
+  border: 1px solid #B0A695;
+  width: 130px;
+  height: 30px;
+  margin-right:50px;
+  background: #B0A695;
+}
+
+.top-row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#clear{
+  background: #D63484;
+  color: white;
+}
